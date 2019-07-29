@@ -1,4 +1,4 @@
-api.gouv.fr catalogue les API offertes par les administrations centrales, les collectivités territoriales, les établissements publics… À chaque API est associée une courte description fonctionnelles, une documentation technique, les modalités d'accès, d'éventuelles ressources supplémentaires et surtout des services qui l'utilisent.
+api.gouv.fr catalogue les API offertes par les administrations centrales, les collectivités territoriales, les établissements publics… Chaque API est associée à une courte description fonctionnelle, une documentation technique, les modalités d'accès, d'éventuelles ressources supplémentaires et surtout des liens vers les services qui l'utilisent.
 
 
 ## Public visé
@@ -42,8 +42,8 @@ Le site utilise [Jekyll], un générateur de site statique en [Ruby].
 
 #### Dépendances
 
-* [Ruby](https://www.ruby-lang.org/en/downloads/). Il est recommandé d'utiliser un système de virtualisation comme [RVM](https://rvm.io/) ou [RbEnv](https://github.com/rbenv/rbenv). La version à utiliser est : `2.2.3`
- * [bundle](http://bundler.io/). La commande a lancer est : `gem install bundle`
+* [Ruby](https://www.ruby-lang.org/en/downloads/). Il est recommandé d'utiliser un système de virtualisation comme [RVM](https://rvm.io/) ou [RbEnv](https://github.com/rbenv/rbenv). La version à utiliser est : `2.5.1`
+ * [bundler](http://bundler.io/). La commande a lancer est : `gem install bundler`
 
 #### Commandes
 

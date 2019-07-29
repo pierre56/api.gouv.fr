@@ -5,7 +5,7 @@ external_site: https://particulier.api.gouv.fr
 contract: OUVERT sous contrat
 stat:
   lastXdays: 30
-  url: https://monitoring.particulier.api.gouv.fr/api/stats/count/particulier.api.gouv.fr?range[@timestamp][gte]=now-30d&match[status-code]=200
+  url: https://monitoring.particulier.api.gouv.fr/api/stats/
   label: justificatifs papier évités
 clients:
   - collectivités
@@ -20,12 +20,13 @@ keywords:
   - Revenu Fiscal de Référence
   - Adresse
   - Justificatif de domicile
+  - Signup
 score:
   detail:
     access:
       link: https://signup.api.gouv.fr/api-particulier
       description: |
-        <p>API Particulier est utilisable sans limitation d'usage par toute collectivité et ministère justifiant de la nécessité de receuillir une information personnelle pour une démarche administrative (justificatif de domicile, revenu fiscal de référence, etc).</p>
+        <p>API Particulier est utilisable sans limitation d'usage par toute collectivité et ministère justifiant de la nécessité de recueillir une information personnelle pour une démarche administrative (justificatif de domicile, revenu fiscal de référence, etc).</p>
 
         <p>Les demandes d'accès pour API Particulier utilisent signup.api.gouv.fr, un outil mis à disposition pour toutes les API catalogués sur api.gouv.fr.</p>
     rate_limiting:
